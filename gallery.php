@@ -34,7 +34,7 @@ eof;
 
 <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
 
-	<style type="text/css">
+<style type="text/css">
         .p_info{
             color: grey;
             font-weight: bolder;
@@ -65,8 +65,8 @@ eof;
 				<nav class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-right" id="cbp-spmenu-s2">
 								<h3>Menu</h3>
 								<a href="index.html" class="active">首页</a>
-								<a href="about.html">关于我们</a>
-								<a href="gallery.html">校园二次元</a>
+								<a href="about.php">关于我们</a>
+								<a href="gallery.php">校园操场</a>
 								<a href="icons.html">开发素材</a>
 								<a href="contact.html">联系我们</a>
 							</nav>
@@ -228,85 +228,67 @@ eof;
 <!-- //gallery -->
 
 <!-- //gallery -->
-<!-- newsletter -->
-	   <div class="newsletter">
-		<div class="container">
-			<div class="col-md-8 agileits-w3layouts_newsletter_left">
-				<h3>Stay informed <br>with our Newsletter</br></h3>
-				<p>Donec porta lacus vitae urna placerat, vitae dapibus nulla eleifend. 
-					Donec aliquam neque quis felis viverra pulvinar. Aliquam erat volutpat. 
-					Nam enim metus, faucibus non porttitor id, laoreet quis sapien.</p>
-				<form action="#" method="post">
-					<input class="email" type="email" placeholder="Your email..." required="">
-					<input type="submit" value="Subscribe">
-				</form>
-			</div>
-			<div class="col-md-4 agileits-w3layouts_newsletter_right">
-				<h4>you think we're cool ? let's work together</h4>
-			</div>
-			<div class="clearfix"> </div>
-		</div>
-	</div>
 <!-- //newsletter -->
-<div class="agileinfo_footer_bottom">
-			<div class="container">
-				<div class="col-md-3 agileinfo_footer_bottom_grid">
-					<h3>About Us</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque 
-						id arcu neque, at convallis est felis.</p>
-					
-				</div>
-				<div class="col-md-3 agileinfo_footer_bottom_grid">
-					<h3>Our links</h3>
-					<div class="w3-agile-foot">
-						<ul>
-							<li><a href="index.html">Home</a></li>
-							<li><a href="about.html">About</a></li>
-							<li><a href="gallery.html">Gallery</a></li>
-							<li><a href="icons.html">Icons</a></li>
-							<li><a href="contact.html">Contact</a></li>
-						</ul>
-						
-					</div>
-				</div>
-				<div class="col-md-3 agileinfo_footer_bottom_grid">
-					<h3>Latest Tweets</h3>
-					<ul class="twi agileits_twitter">
-						<li><i class="fa fa-twitter" aria-hidden="true"></i>Praesent imperdiet diam sagittis, egestas augue id <a href="#" class="mail">
-						@http:example.com</a> <span>ABOUT 15 MINS</span></li>
-						<li><i class="fa fa-twitter" aria-hidden="true"></i>Mauris tristique, dolor vel iaculis vestibulum<a href="#" class="mail">
-						@http:example.com</a> <span>ABOUT 2 HOURS AGO</span></li>
-					</ul>
-				</div>
-				<div class="col-md-3 agileinfo_footer_bottom_grid">
-					<h3>Flickr Feed</h3>
-					<div class="flickr-grids">
-						<div class="flickr-grid agileits_w3layouts_flickr">
-							<a href="#"><img src="images/5.jpg" alt=" " class="img-responsive"></a>
-						</div>
-						<div class="flickr-grid  agileits_w3layouts_flickr">
-							<a href="#"><img src="images/6.jpg" alt=" " class="img-responsive"></a>
-						</div>
-						<div class="flickr-grid  agileits_w3layouts_flickr">
-							<a href="#"><img src="images/7.jpg" alt=" " class="img-responsive"></a>
-						</div>
-						<div class="clearfix"> </div>
-						
-						<div class="flickr-grid  agileits_w3layouts_flickr">
-							<a href="#"><img src="images/8.jpg" alt=" " class="img-responsive"></a>
-						</div>
-						<div class="flickr-grid  agileits_w3layouts_flickr">
-							<a href="#"><img src="images/9.jpg" alt=" " class="img-responsive"></a>
-						</div>
-						<div class="flickr-grid  agileits_w3layouts_flickr">
-							<a href="#"><img src="images/10.jpg" alt=" " class="img-responsive"></a>
-						</div>
-						<div class="clearfix"> </div>
-					</div>
-				</div>
-				<div class="clearfix"> </div>
-			</div>
-		</div>
+     <div class="agileinfo_footer_bottom">
+         <div class="container">
+             <div class="col-md-3 agileinfo_footer_bottom_grid">
+                 <h3>关于我们</h3>
+                 <p>
+                     精彩课堂直播，不一样的授课方式，新颖的只是传播理念。新时代的趋势。当 下的我们是一个需要学习的阶段，网络直播解决了上课时间太短，上课内容过快，课后无人解答各种缺陷，让课堂更加灵活多变。
+                 </p>
+
+             </div>
+             <div class="col-md-3 agileinfo_footer_bottom_grid">
+                 <h3>我们的链接</h3>
+                 <div class="w3-agile-foot">
+                     <ul>
+                         <li><a href="index.html">首页</a></li>
+                         <li><a href="about.php">关于我们</a></li>
+                         <li><a href="gallery.html">大厅中心</a></li>
+                         <li><a href="icons.html">其他.....</a></li>
+                         <li><a href="contact.html">联系我们</a></li>
+                     </ul>
+
+                 </div>
+             </div>
+             <div class="col-md-3 agileinfo_footer_bottom_grid">
+                 <h3>Latest Tweets</h3>
+                 <ul class="twi agileits_twitter">
+                     <li><i class="fa fa-twitter" aria-hidden="true"></i>Praesent imperdiet diam sagittis, egestas augue id <a href="#" class="mail">
+                             @http:example.com</a> <span>ABOUT 15 MINS</span></li>
+                     <li><i class="fa fa-twitter" aria-hidden="true"></i>Mauris tristique, dolor vel iaculis vestibulum<a href="#" class="mail">
+                             @http:example.com</a> <span>ABOUT 2 HOURS AGO</span></li>
+                 </ul>
+             </div>
+             <div class="col-md-3 agileinfo_footer_bottom_grid">
+                 <h3>精彩剪辑，脚印</h3>
+                 <div class="flickr-grids">
+                     <div class="flickr-grid agileits_w3layouts_flickr">
+                         <a href="#"><img src="images/5.jpg" alt=" " class="img-responsive"></a>
+                     </div>
+                     <div class="flickr-grid  agileits_w3layouts_flickr">
+                         <a href="#"><img src="images/6.jpg" alt=" " class="img-responsive"></a>
+                     </div>
+                     <div class="flickr-grid  agileits_w3layouts_flickr">
+                         <a href="#"><img src="images/7.jpg" alt=" " class="img-responsive"></a>
+                     </div>
+                     <div class="clearfix"> </div>
+
+                     <div class="flickr-grid  agileits_w3layouts_flickr">
+                         <a href="#"><img src="images/8.jpg" alt=" " class="img-responsive"></a>
+                     </div>
+                     <div class="flickr-grid  agileits_w3layouts_flickr">
+                         <a href="#"><img src="images/9.jpg" alt=" " class="img-responsive"></a>
+                     </div>
+                     <div class="flickr-grid  agileits_w3layouts_flickr">
+                         <a href="#"><img src="images/10.jpg" alt=" " class="img-responsive"></a>
+                     </div>
+                     <div class="clearfix"> </div>
+                 </div>
+             </div>
+             <div class="clearfix"> </div>
+         </div>
+     </div>
 <!-- copy-right -->
 	 <div class="w3ls-copy-right">
 		 <div class="container">
