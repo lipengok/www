@@ -117,6 +117,22 @@ class Dbutils{
             return false;
         }
     }
+    /*
+     * 重置指定用户的密码
+     * 请求：int
+     * 响应：boolean
+     * */
+    public function replacePsw($id){
+        $sql="
+        update student set psw='00000000' where id='$id';
+        ";
+        $res=$this->connection->query($sql);
+        if ($res==1){
+            return true;
+        }else{
+            return false;
+        }
+    }
 
 }
 
