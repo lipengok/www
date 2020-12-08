@@ -62,11 +62,11 @@ $_SESSION['code']=str_replace(' ','',$code);
                     </div>
                     <div class="account clearfix">
                         <span>账　号：</span>
-                        <input type="text" value="<?php echo $_COOKIE['name']?>" name="name" placeholder="请输入账号"/>
+                        <input type="text" value="<?php echo $_COOKIE['adminname']?>" name="name" placeholder="请输入账号"/>
                     </div>
                     <div class="password clearfix">
                         <span>密　码：</span>
-                        <input type="password" value="<?echo $_COOKIE['psw']?>" name="psw"placeholder="请输入密码"/>
+                        <input type="password" value="<?echo $_COOKIE['adminpsw']?>" name="psw" placeholder="请输入密码"/>
                     </div>
                     <div class="code clearfix">
                         <span>验证码：</span>

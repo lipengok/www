@@ -26,8 +26,8 @@ eof;
         if ($psw==$input_psw){
             if ($code==$input_code){
                 //登陆成功之后，账号信息会默认保存一天
-                setcookie('name',$input_name,60*60*24+time());
-                setcookie('psw',$psw,60*60*24+time());
+                setcookie('adminname',$input_name,60*60*24+time(),'/');
+                setcookie('adminpsw',$psw,60*60*24+time(),'/');
                 echo <<<eof
 <script>
 window.location.href="../../StudentIndex.html";
