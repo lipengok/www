@@ -106,7 +106,7 @@ eof;
 <!-- gallery -->
 	<div class="gallery-w3ls">
 		<div class="container">
-			<h2 class="agile">Gallery</h2>
+			<h2 class="agile">校园CENTER</h2>
 			
 			<div class="w3layouts_gallery_grids">
 				<ul class="w3l_gallery_grid" id="lightGallery">
@@ -115,7 +115,7 @@ eof;
 							<a href="#">
 								<img src="images/4.jpg" alt=" " class="img-responsive" />
 								<div class="overbox">
-									<h4 class="title overtext"> Elucidation </h4>
+									<h4 class="title overtext"> 校园足球 </h4>
 									<p class="tagline overtext"> Fusce venenatis sem nec justo dapibus finibus. </p>
 								</div>
 							</a>
@@ -126,7 +126,7 @@ eof;
 							<a href="#">
 								<img src="images/5.jpg" alt=" " class="img-responsive" />
 								<div class="overbox">
-									<h4 class="title overtext"> Elucidation </h4>
+									<h4 class="title overtext"> 校园篮球 </h4>
 									<p class="tagline overtext"> Fusce venenatis sem nec justo dapibus finibus. </p>
 								</div>
 							</a>
@@ -137,7 +137,7 @@ eof;
 							<a href="#">
 								<img src="images/6.jpg" alt=" " class="img-responsive" />
 								<div class="overbox">
-									<h4 class="title overtext"> Elucidation </h4>
+									<h4 class="title overtext"> 校园羽毛球 </h4>
 									<p class="tagline overtext"> Fusce venenatis sem nec justo dapibus finibus. </p>
 								</div>
 							</a>
@@ -148,7 +148,7 @@ eof;
 							<a href="#">
 								<img src="images/7.jpg" alt=" " class="img-responsive" />
 								<div class="overbox">
-									<h4 class="title overtext"> Elucidation </h4>
+									<h4 class="title overtext"> 校园拔河 </h4>
 									<p class="tagline overtext"> Fusce venenatis sem nec justo dapibus finibus. </p>
 								</div>
 							</a>
@@ -159,7 +159,7 @@ eof;
 							<a href="#">
 								<img src="images/8.jpg" alt=" " class="img-responsive" />
 								<div class="overbox">
-									<h4 class="title overtext"> Elucidation </h4>
+									<h4 class="title overtext"> 校园汉服 </h4>
 									<p class="tagline overtext"> Fusce venenatis sem nec justo dapibus finibus. </p>
 								</div>
 							</a>
@@ -170,7 +170,7 @@ eof;
 							<a href="#">
 								<img src="images/9.jpg" alt=" " class="img-responsive" />
 								<div class="overbox">
-									<h4 class="title overtext"> Elucidation </h4>
+									<h4 class="title overtext"> 校园K歌 </h4>
 									<p class="tagline overtext"> Fusce venenatis sem nec justo dapibus finibus. </p>
 								</div>
 							</a>
@@ -181,7 +181,7 @@ eof;
 							<a href="#">
 								<img src="images/10.jpg" alt=" " class="img-responsive" />
 								<div class="overbox">
-									<h4 class="title overtext"> Elucidation </h4>
+									<h4 class="title overtext"> 校园志愿者 </h4>
 									<p class="tagline overtext"> Fusce venenatis sem nec justo dapibus finibus. </p>
 								</div>
 							</a>
@@ -192,7 +192,7 @@ eof;
 							<a href="#">
 								<img src="images/11.jpg" alt=" " class="img-responsive" />
 								<div class="overbox">
-									<h4 class="title overtext"> Elucidation</h4>
+									<h4 class="title overtext"> 校园科技</h4>
 									<p class="tagline overtext"> Fusce venenatis sem nec justo dapibus finibus. </p>
 								</div>
 							</a>
@@ -203,7 +203,7 @@ eof;
 							<a href="#">
 								<img src="images/12.jpg" alt=" " class="img-responsive" />
 								<div class="overbox">
-									<h4 class="title overtext">Elucidation </h4>
+									<h4 class="title overtext">校园摄影 </h4>
 									<p class="tagline overtext"> Fusce venenatis sem nec justo dapibus finibus. </p>
 								</div>
 							</a>
