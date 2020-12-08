@@ -149,7 +149,7 @@
                 <a href="upstudy/UpstudyInformation.php?studentName=<?=$student['name']?>">考研详情</a>
             </td>
             <td>
-                <a class="a_op" href="">删除</a>
+                <a class="a_op" href="php/controller/deleteStudent.php?id=<?=$student['id']?>">删除</a>
                 <a class="a_op" href="">重置密码</a>
             </td>
         </tr>

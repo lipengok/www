@@ -101,6 +101,22 @@ class Dbutils{
     public function getConnettion(){
         return $this->connection;
     }
+    /*
+     * 删除一个用户
+     * 请求：int
+     * 响应：boolean
+     * */
+    public function deleteOne($id){
+        $sql="
+        delete from student where id='$id'
+        ";
+        $res=$this->connection->query($sql);
+        if ($res==1){
+            return true;
+        }else{
+            return false;
+        }
+    }
 
 }
 
