@@ -10,7 +10,7 @@
 <div class="nav">
     <div class="nav-list">
         <div class="nav-tit" id="personal">
-            <a href="student.html" target="main">
+            <a href="StudentAccountNumber.php?page=1" target="main">
                 <img src="images/personal-msg.png" style="height: 30px" alt="">
                 <span>个人信息</span>
             </a>
