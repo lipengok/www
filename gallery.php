@@ -1,3 +1,13 @@
+<?php
+if ($_COOKIE['username']==null||$_COOKIE['psw']==null){
+    echo <<<eof
+<script>
+alert("请先登录！");
+window.location.href="index.html";
+</script>
+eof;
+}
+?>
 <!DOCTYPE html>
 <html>
 <head>
