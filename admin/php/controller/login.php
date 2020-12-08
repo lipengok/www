@@ -30,7 +30,7 @@ eof;
                 setcookie('adminpsw',$psw,60*60*24+time(),'/');
                 echo <<<eof
 <script>
-window.location.href="../../StudentIndex.html";
+window.location.href="../../StudentIndex.php";
 </script>
 eof;
             }else{

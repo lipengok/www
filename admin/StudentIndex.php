@@ -14,7 +14,7 @@
 		</style>
 	</head>
 	<frameset frameborder="0" rows="60,*">
-		<frame src="StudentCeil.html" noresize="noresize" scrolling="no" />
+		<frame src="StudentCeil.php" noresize="noresize" scrolling="no" />
 		<frameset frameborder="0" cols="210,*">
 			<frame src="StudentLfter.php" noresize="noresize" scrolling="no" />
 			<frame noresize="noresize" scrolling="yes" name="main" />

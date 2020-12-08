@@ -41,6 +41,11 @@
         .bx .container .right .r{
             float: right;
         }
+        a{
+            color: whitesmoke;
+            font-weight: bolder;
+            text-decoration: none;
+        }
     </style>
 </head>
 <body>
@@ -48,8 +53,8 @@
     <div class="container">
         <h2 class="left">学生信息管理中心</h2>
         <div class="right">
-            <span class="l">注销</span>
-            <span class="r">退出登录</span>
+            <a class="l" href="index.php" target="_self">注销</a>
+            <a class="r" href="index.php" target="_self">退出登录</a>
         </div>
     </div>
 </div>
