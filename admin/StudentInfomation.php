@@ -15,6 +15,9 @@
         .right{
             float: right;
         }
+        a{
+            color: black;
+        }
     </style>
 </head>
 <body>
@@ -26,8 +29,8 @@
                     <div class="top">
                         <div class="left">当前位置>档案信息</div>
                         <div class="right">
-                            <span id="emit" class="l" style="margin-right: 20px">编辑</span>
-                            <span id="keep" class="r" style="cursor: pointer;">保存</span>
+                            <a id="emit" href="javascript:;">编辑</a>
+                            <a id="keep" href="javascript:;">保存</a>
                         </div>
                     </div>
                     <div class="content">
@@ -40,7 +43,7 @@
                         <div class="one">
                             <div class="left">
                                 <span>代理类型：</span>
-                                <input type="text" name="agency_type" placeholder="代理类型"/>
+                                <input type="text" name="agency_type" placeholder="代理类型" disabled/>
                             </div>
                             <div class="right">
                                 <span>有无组织关系：</span>
@@ -53,21 +56,21 @@
                         <div class="one">
                             <div class="left">
                                 <span>人才代理标志：</span>
-                                <input type="text" name="agency_loge" placeholder="人才代理标志"/>
+                                <input type="text" name="agency_loge" placeholder="人才代理标志" disabled/>
                             </div>
                             <div class="right">
                                 <span>灵活合同标志：</span>
-                                <input type="text" name="doc_logo" placeholder="灵活合同标志"/>
+                                <input type="text" name="doc_logo" placeholder="灵活合同标志" disabled/>
                             </div>
                         </div>
                         <div class="one">
                             <div class="left">
                                 <span>灵活合同单位名称：</span>
-                                <input type="text" name="doc_name"  placeholder="灵活合同单位名称"/>
+                                <input type="text" name="doc_name"  placeholder="灵活合同单位名称" disabled/>
                             </div>
                             <div class="right">
                                 <span>学生名字：</span>
-                                <input type="text" name="student_name" placeholder="学生名字"/>
+                                <input type="text" name="student_name" placeholder="学生名字" disabled/>
                             </div>
                         </div>
                         <div class="one">
@@ -82,12 +85,16 @@
         </div>
     </div>
 </div>
+<script src="js/jquery-1.9.1.min.js"></script>
 <script type="text/javascript">
     $('#emit').on('click',function(){
         $('input').removeAttr('disabled');
     });
     $('#keep').on('click',function(){
         $('input').attr('disabled','disabled');
+        if ($('input').value==""){
+            alert("不能有空白");
+        }
     });
 </script>
 </body>
