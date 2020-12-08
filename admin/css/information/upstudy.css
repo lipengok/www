@@ -1,0 +1,24 @@
+ul{
+    list-style: decimal;
+    border: 5px solid black;
+}
+ul li{
+    margin-top: 10px;
+    text-align: left;
+}
+.ul_info_left{
+    width: 40%;
+    height: 340px;
+    float: left;
+}
+.span_info{
+    color: black;
+    font-weight: bolder;
+}
+.img_info{
+    width: 50%;
+    height: 350px;
+    float: left;
+    margin-top: 15px;
+    margin-left: 20px;
+}
