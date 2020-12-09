@@ -6,10 +6,17 @@
     <link rel="stylesheet" href="css/common.css">
     <link rel="stylesheet" href="css/FamilyInformation.css">
     <style type="text/css">
-        .add{
+        #add{
             width: 100px;
-            background: white;
-            border: 1px solid whitesmoke;
+            height: 30px;
+            border: 1px solid lightblue;
+            background:dodgerblue;
+            color: whitesmoke;
+            font-weight: bolder;
+        }
+        #div_sub{
+            float: left;
+            background: lightblue;
         }
     </style>
     <script src="js/jquery-1.9.1.min.js"></script>
@@ -19,7 +26,7 @@
     <div class="container">
         <div class="content">
             <div class="header clearfix">
-                <div class="top fl">当前位置>家庭信息><input class="add" type="submit" value="添加"></div>
+                <div class="top fl">当前位置>家庭信息</div>
                 <div class="bottom fr">
                     <a id="emit" href="javascript:;">编辑</a>
                     <a id="keep" href="javascript:;">保存</a>
@@ -100,6 +107,18 @@
                     <div class="address fl ">
                         <label>家庭的地址：</label>
                         <input placeholder="家庭的地址" class="input" id="pcs" type="text" value="" name="home_adress" disabled>
+                    </div>
+                </div>
+                <!--操作信息-->
+                <div class="BasicInformation">
+                    <div class="title">
+                        操作选项
+                    </div>
+                </div>
+                <div class="content clearfix">
+                    <div id="div_sub">
+                        <label>确认信息后点击添加：</label>
+                        <input id="add" type="submit" value="添加">
                     </div>
                 </div>
             </div>
