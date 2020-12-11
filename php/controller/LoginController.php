@@ -19,7 +19,6 @@ if ($input_psw==$real_psw){
     setcookie('psw',$input_psw,3600*24+time(),'/');
     echo <<<eof
 <script>
-alert("登录成功");
 window.location.href="/gallery.php";
 </script>
 eof;
