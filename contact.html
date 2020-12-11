@@ -24,12 +24,18 @@
 
 <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
 <!-- //fonts -->
+<style type="text/css">
+		body{
+			background: lightgray;
+		}
+		input{
+			border-radius: 5px;
+		}
+
+	</style>
 </head>
 <body class="cbp-spmenu-push">
-	 <!--top-header-->
-		<!--bottom-->
-		 
-<!-- banner -->
+<!-- 头部信息 -->
 <div class="w3layouts-banner1">
 	<div class="container">
 		<div class="wthree-header">
@@ -39,10 +45,10 @@
 			<div class="agileinfo-tleft">
 				<nav class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-right" id="cbp-spmenu-s2">
 								<h3>Menu</h3>
-								<a href="index.html" class="active">首页</a>
-								<a href="about.html">关于我们</a>
-								<a href="gallery.html">校园二次元</a>
-								<a href="icons.html">开发素材</a>
+								<a href="index.html" class="active">退出登录</a>
+								<a href="index.html" class="active">注销账号</a>
+								<a href="about.php">关于我们</a>
+								<a href="gallery.php">校园广场</a>
 								<a href="contact.html">联系我们</a>
 							</nav>
 							<div class="main buttonset">	
@@ -76,126 +82,36 @@
 		</div>
 	</div>
 </div>
-<!-- //banner -->
-<!-- contact -->
+<!-- 邮件内容 -->
 <div class="contact-w3ls">
-				<div class="container">
-					<h2 class="agile">客服反馈</h2>
-					<div class="agileinfo-contact-grids">
-						<div class="col-md-6 agileinfo-contact-grid-left">
-							<form action="#" method="post">
-								<input type="text" name="Name" value="您的称呼" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Name';}" required="">
-								<input type="text" name="Phone" value="手机号码" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Phone';}" required="">
-							</form>
-						</div>
-						<div class="col-md-6 agileinfo-contact-grid-left">
-							<form action="#" method="post">
-								<input type="email" name="Email" value="电子邮件" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email';}" required="">
-								<input type="text" name="Subject" value="现在的单位" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Subject';}" required="">
-							</form>
-						</div>
-							<div class="clearfix"> </div>
-							<form action="#" method="post">
-								<textarea type="text" name="Message" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Message...';}" required="">请输入您的意见...</textarea>
-								<input type="submit" value="立刻 提交">
-							</form>
-					</div>
-					<div class="w3-agileits-map">
-						<iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d424143.0364445868!2d150.65178715483057!3d-33.84797433484325!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x6b129838f39a743f%3A0x3017d681632a850!2sSydney+NSW%2C+Australia!5e0!3m2!1sen!2sin!4v1474612368796" allowfullscreen></iframe>
-					</div>
-				</div>
-			</div>
-<!-- //contact -->
-<!-- newsletter -->
-	   <div class="newsletter">
-		<div class="container">
-			<div class="col-md-8 agileits-w3layouts_newsletter_left">
-				<h3>Stay informed <br>with our Newsletter</br></h3>
-				<p>Donec porta lacus vitae urna placerat, vitae dapibus nulla eleifend. 
-					Donec aliquam neque quis felis viverra pulvinar. Aliquam erat volutpat. 
-					Nam enim metus, faucibus non porttitor id, laoreet quis sapien.</p>
+	<div class="container">
+		<h2 class="agile">客服反馈</h2>
+		<div class="agileinfo-contact-grids">
+			<div class="col-md-6 agileinfo-contact-grid-left">
 				<form action="#" method="post">
-					<input class="email" type="email" placeholder="Your email..." required="">
-					<input type="submit" value="Subscribe">
+					<input type="text" name="Name" value="您的称呼" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Name';}" required="">
+					<input type="text" name="Phone" value="手机号码" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Phone';}" required="">
 				</form>
 			</div>
-			<div class="col-md-4 agileits-w3layouts_newsletter_right">
-				<h4>you think we're cool ? let's work together</h4>
+			<div class="col-md-6 agileinfo-contact-grid-left">
+				<form action="#" method="post">
+					<input type="email" name="Email" value="电子邮件" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Email';}" required="">
+					<input type="text" name="Subject" value="现在的单位" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Subject';}" required="">
+				</form>
 			</div>
 			<div class="clearfix"> </div>
+			<form action="#" method="post">
+				<textarea type="text" name="Message" onfocus="this.value = '';" onblur="if (this.value == '') {this.value = 'Message...';}" required="">请输入您的意见...</textarea>
+				<input type="submit" value="立刻 提交">
+			</form>
 		</div>
 	</div>
-<!-- //newsletter -->
-<div class="agileinfo_footer_bottom">
-			<div class="container">
-				<div class="col-md-3 agileinfo_footer_bottom_grid">
-					<h3>About Us</h3>
-					<p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Pellentesque 
-						id arcu neque, at convallis est felis.</p>
-					
-				</div>
-				<div class="col-md-3 agileinfo_footer_bottom_grid">
-					<h3>Our links</h3>
-					<div class="w3-agile-foot">
-						<ul>
-							<li><a href="index.html">Home</a></li>
-							<li><a href="about.html">About</a></li>
-							<li><a href="gallery.html">Gallery</a></li>
-							<li><a href="icons.html">Icons</a></li>
-							<li><a href="contact.html">Contact</a></li>
-						</ul>
-						
-					</div>
-				</div>
-				<div class="col-md-3 agileinfo_footer_bottom_grid">
-					<h3>Latest Tweets</h3>
-					<ul class="twi agileits_twitter">
-						<li><i class="fa fa-twitter" aria-hidden="true"></i>Praesent imperdiet diam sagittis, egestas augue id <a href="#" class="mail">
-						@http:example.com</a> <span>ABOUT 15 MINS</span></li>
-						<li><i class="fa fa-twitter" aria-hidden="true"></i>Mauris tristique, dolor vel iaculis vestibulum<a href="#" class="mail">
-						@http:example.com</a> <span>ABOUT 2 HOURS AGO</span></li>
-					</ul>
-				</div>
-				<div class="col-md-3 agileinfo_footer_bottom_grid">
-					<h3>Flickr Feed</h3>
-					<div class="flickr-grids">
-						<div class="flickr-grid agileits_w3layouts_flickr">
-							<a href="#"><img src="images/5.jpg" alt=" " class="img-responsive"></a>
-						</div>
-						<div class="flickr-grid  agileits_w3layouts_flickr">
-							<a href="#"><img src="images/6.jpg" alt=" " class="img-responsive"></a>
-						</div>
-						<div class="flickr-grid  agileits_w3layouts_flickr">
-							<a href="#"><img src="images/7.jpg" alt=" " class="img-responsive"></a>
-						</div>
-						<div class="clearfix"> </div>
-						
-						<div class="flickr-grid  agileits_w3layouts_flickr">
-							<a href="#"><img src="images/8.jpg" alt=" " class="img-responsive"></a>
-						</div>
-						<div class="flickr-grid  agileits_w3layouts_flickr">
-							<a href="#"><img src="images/9.jpg" alt=" " class="img-responsive"></a>
-						</div>
-						<div class="flickr-grid  agileits_w3layouts_flickr">
-							<a href="#"><img src="images/10.jpg" alt=" " class="img-responsive"></a>
-						</div>
-						<div class="clearfix"> </div>
-					</div>
-				</div>
-				<div class="clearfix"> </div>
-			</div>
-		</div>
-<!-- copy-right -->
+</div>
+<!-- 版权信息 -->
 <div class="w3ls-copy-right">
 	<div class="container">
 			<p>Copyright &copy; 2020.Company name All rights reserved.<a target="_blank" href="http://sc.chinaz.com/moban/">蚌埠学院</a></p>
 	</div>
 </div>
-<!-- //copy-right -->
-<!-- for bootstrap working -->
-	<script src="js/bootstrap.js"></script>
-<!-- //for bootstrap working -->
-
-
 </body>
 </html>

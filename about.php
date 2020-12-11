@@ -31,14 +31,18 @@ eof;
     <!-- //js -->
     <!-- fonts -->
     <link href="http://fonts.googleapis.com/css?family=Poppins:300,400,500,600,700" rel="stylesheet">
-
     <link href='http://fonts.googleapis.com/css?family=Open+Sans:300italic,400italic,600italic,700italic,800italic,400,300,600,700,800' rel='stylesheet' type='text/css'>
-
     <style type="text/css">
+        img{
+            border-radius: 1%;
+        }
         .p_info{
             color: grey;
             font-weight: bolder;
             font-size: 25px;
+        }
+        hr{
+            color: limegreen;
         }
     </style>
     <!-- //fonts -->
@@ -47,7 +51,7 @@ eof;
 <!--top-header-->
 <!--bottom-->
 
-<!-- banner -->
+<!-- 头部模板 -->
 <div class="w3layouts-banner1">
     <div class="container">
         <div class="wthree-header">
@@ -64,10 +68,10 @@ eof;
             <div class="agileinfo-tleft">
                 <nav class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-right" id="cbp-spmenu-s2">
                     <h3>Menu</h3>
-                    <a href="index.html" class="active">首页</a>
+                    <a href="index.html" class="active">退出登录</a>
+                    <a href="index.html" class="active">注销账号</a>
                     <a href="about.php">关于我们</a>
-                    <a href="gallery.php">校园操场</a>
-                    <a href="icons.html">开发素材</a>
+                    <a href="gallery.php">校园广场</a>
                     <a href="contact.html">联系我们</a>
                 </nav>
                 <div class="main buttonset">
@@ -101,7 +105,7 @@ eof;
         </div>
     </div>
 </div>
-<!-- //banner -->
+<!-- 主模块 -->
 <div class="about-w3ls">
     <!-- 学生帮 -->
     <div class="container">
@@ -117,7 +121,7 @@ eof;
                     </div>
                     <div class="about-agileits">
                         <h4>恭喜***同学荣获2020届新生扣篮大赛第一名</h4>
-                        <p>NBA全明星扣篮大赛为NBA全明星周末的重要比赛项目，从1984年开始设立。首轮每人灌篮三次，总分最高的三名队员晋级决赛，得分最高的在决赛中可以最后出场。决赛阶段每人扣两次，得分最高的为冠军。</p>
+                        <p class="p_student_info">NBA全明星扣篮大赛为NBA全明星周末的重要比赛项目，从1984年开始设立。首轮每人灌篮三次，总分最高的三名队员晋级决赛，得分最高的在决赛中可以最后出场。决赛阶段每人扣两次，得分最高的为冠军。</p>
                     </div>
                     <div class="clearfix"></div>
                 </div>
@@ -127,7 +131,7 @@ eof;
                     </div>
                     <div class="about-agileits">
                         <h4>恭喜***同学荣获2020届新生扣篮大赛第一名</h4>
-                        <p>NBA全明星扣篮大赛为NBA全明星周末的重要比赛项目，从1984年开始设立。首轮每人灌篮三次，总分最高的三名队员晋级决赛，得分最高的在决赛中可以最后出场。决赛阶段每人扣两次，得分最高的为冠军。</p>
+                        <p class="p_student_info">NBA全明星扣篮大赛为NBA全明星周末的重要比赛项目，从1984年开始设立。首轮每人灌篮三次，总分最高的三名队员晋级决赛，得分最高的在决赛中可以最后出场。决赛阶段每人扣两次，得分最高的为冠军。</p>
                     </div>
                     <div class="clearfix"></div>
                 </div>
@@ -135,11 +139,11 @@ eof;
             <div class="clearfix"></div>
         </div>
     </div>
+    <hr>
     <!-- 教师帮 -->
     <div class="staff">
         <div class="container">
             <h3 class="agile">优秀教师榜</h3>
-
             <div class="staff-top">
                 <div class="col-md-3 col-sm-3 staff-img staff-img1">
                     <img src="images/t1.jpg" class="img-responsive-teacher" alt=" ">
@@ -147,7 +151,7 @@ eof;
                 <div class="col-md-3 col-sm-3  staff-text  staff-text1">
                     <h4>计算机工程学院 最美教师</h4>
                     <h5>蓝桥杯冠军队伍leader </h5>
-                    <p class="p_teacher">为促进软件和信息领域专业技术人才培养，提升高校毕业生的就业竞争力，由教育部就业指导中心支持，工业和信息化部人才交流中心举办蓝桥杯大赛。</p>
+                    <p class="p_teacher">为促进软件和信息领域专业技术人才培养，提升高校毕业生的就业竞争力，由教育部就业指导中心支持，工业和信息化部人才交流中心举办蓝桥杯大赛。为促进软件和信息领域专业技术人才培养，提升高校毕业生的就业竞争力，由教育部就业指导中心支持，工业和信息化部人才交流中心举办蓝桥杯大赛</p>
                     <div class="agile-social">
                         <ul>
                             <li><a href="#"><i class="fa fa-facebook"></i></a></li>
@@ -157,7 +161,6 @@ eof;
                         </ul>
                     </div>
                 </div>
-
                 <div class="col-md-3 col-sm-3  staff-img staff-img2">
                     <img src="images/t2.jpg" class="img-responsive-teacher" alt=" ">
                 </div>
@@ -215,8 +218,7 @@ eof;
         </div>
     </div>
 </div>
-<!-- //about -->
-<!-- //newsletter -->
+<!-- 关于我们-->
 <div class="agileinfo_footer_bottom">
     <div class="container">
         <div class="col-md-3 agileinfo_footer_bottom_grid">
@@ -277,17 +279,11 @@ eof;
         <div class="clearfix"> </div>
     </div>
 </div>
-<!-- copy-right -->
+<!-- 版权信息-->
 <div class="w3ls-copy-right">
     <div class="container">
         <p>Copyright &copy; 2020.Company name All rights reserved.<a target="_blank" href="http://sc.chinaz.com/moban/">蚌埠学院</a></p>
     </div>
 </div>
-<!-- //copy-right -->
-<!-- for bootstrap working -->
-<script src="js/bootstrap.js"></script>
-<!-- //for bootstrap working -->
-
-
 </body>
 </html>

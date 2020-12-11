@@ -16,7 +16,7 @@
         }
         #div_sub{
             float: left;
-            background: lightblue;
+            background: whitesmoke;
         }
     </style>
     <script src="js/jquery-1.9.1.min.js"></script>
