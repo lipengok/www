@@ -62,11 +62,11 @@ eof;
             <div class="agileinfo-tleft">
                 <nav class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-right" id="cbp-spmenu-s2">
                     <h3>Menu</h3>
-                    <a href="index.html" class="active">退出登录</a>
-                    <a href="index.html" class="active">注销账号</a>
-                    <a href="about.php">关于我们</a>
+                    <a href="myclass">课堂商场</a>
                     <a href="gallery.php">校园广场</a>
                     <a href="contact.html">联系我们</a>
+                    <a href="index.html" class="active">退出登录</a>
+                    <a href="index.html" class="active">注销账号</a>
                 </nav>
                 <div class="main buttonset">
                     <!-- Class "cbp-spmenu-open" gets applied to menu and "cbp-spmenu-push-toleft" or "cbp-spmenu-push-toright" to the body -->
