@@ -5,7 +5,7 @@
     <title>StudentList</title>
     <style type="text/css">
         body{
-            background: white;
+            background: gainsboro;
             color: #0d0d0d;
         }
         div{
@@ -24,7 +24,7 @@
         }
         table tr{
             width: 100%;
-            background: gainsboro;
+            background: whitesmoke;
             text-align: center;
             border: 2px solid darkcyan;
         }
