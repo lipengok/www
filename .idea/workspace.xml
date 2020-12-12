@@ -30,7 +30,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/php/controller/uploadImg" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/php/controller" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="two.files.diff.last.used.folder" value="$PROJECT_DIR$/admin" />
@@ -42,11 +42,11 @@
       <recent name="E:\PhpStydy\koschoolhtml\admin" />
     </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\netschool\php\controller" />
       <recent name="F:\netschool\php\controller\uploadImg" />
       <recent name="F:\netschool\php\controller\createCode" />
       <recent name="F:\netschool\myhome\book" />
       <recent name="F:\netschool\myhome\css" />
-      <recent name="F:\netschool\myhome" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -68,7 +68,7 @@
       <workItem from="1607414180501" duration="1701000" />
       <workItem from="1607419769185" duration="4679000" />
       <workItem from="1607480059401" duration="2779000" />
-      <workItem from="1607675360921" duration="21217000" />
+      <workItem from="1607675360921" duration="21863000" />
     </task>
     <servers />
   </component>
