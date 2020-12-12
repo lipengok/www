@@ -65,6 +65,9 @@ eof;
                         <a href="index.html" class="active">注销账号</a>
                         <a href="about.php">关于我们</a>
                         <a href="gallery.php">校园广场</a>
+                        <a href="vdio.php">线上直播客</a>
+                        <a href="files.php">我的课程</a>
+                        <a href="myhome/index.php">我的博客</a>
                         <a href="contact.html">联系我们</a>
                     </nav>
                     <div class="main buttonset">

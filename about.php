@@ -41,16 +41,10 @@ eof;
             font-weight: bolder;
             font-size: 25px;
         }
-        hr{
-            color: limegreen;
-        }
     </style>
     <!-- //fonts -->
 </head>
 <body class="cbp-spmenu-push">
-<!--top-header-->
-<!--bottom-->
-
 <!-- 头部模板 -->
 <div class="w3layouts-banner1">
     <div class="container">
@@ -139,7 +133,7 @@ eof;
             <div class="clearfix"></div>
         </div>
     </div>
-    <hr>
+    <hr size="10">
     <!-- 教师帮 -->
     <div class="staff">
         <div class="container">
