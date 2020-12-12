@@ -56,43 +56,10 @@
                         <dt><a href="#" class="b">计算机</a></dt>
                         <dd><a href="#">C语言</a> <a href="#">C#</a> <a href="#">JAVA</a> <a href="#">PHP</a> <a href="#">前端</a></dd>
                     </dl>
-				</div>
-				<div class="shopClass_list hide">
-					<div class="shopClass_cont">
-						<dl class="shopList_item">
-							<dt>电脑装机</dt>
-							<dd>
-								<a href="#">文字啊</a><a href="#">文字字啊</a><a href="#">文字字字啊</a><a href="#">文字啊</a><a href="#">文字</a><a href="#">文字啊</a>
-							</dd>
-						</dl>
-						<dl class="shopList_item">
-							<dt>电脑装机</dt>
-							<dd>
-								<a href="#">文字啊</a><a href="#">文字字啊</a><a href="#">文字字字啊</a><a href="#">文字啊</a><a href="#">文字</a><a href="#">文字啊</a><a href="#">文字啊</a><a href="#">文字字啊</a><a href="#">文字字字啊</a><a href="#">文字啊</a><a href="#">文字</a><a href="#">文字啊</a><a href="#">文字啊</a>
-							</dd>
-						</dl>
-						<dl class="shopList_item">
-							<dt>电脑装机</dt>
-							<dd>
-								<a href="#">文字啊</a><a href="#">文字字啊</a><a href="#">文字字字啊</a><a href="#">文字啊</a><a href="#">文字</a><a href="#">文字啊</a><a href="#">文字啊</a><a href="#">文字字啊</a><a href="#">文字字字啊</a><a href="#">文字啊</a><a href="#">文字</a><a href="#">文字啊</a><a href="#">文字啊</a>
-							</dd>
-						</dl>
-						<dl class="shopList_item">
-							<dt>电脑装机</dt>
-							<dd>
-								<a href="#">文字啊</a><a href="#">文字字啊</a><a href="#">文字字字啊</a><a href="#">文字啊</a><a href="#">文字</a><a href="#">文字啊</a><a href="#">文字啊</a><a href="#">文字字啊</a><a href="#">文字字字啊</a><a href="#">文字啊</a><a href="#">文字</a><a href="#">文字啊</a><a href="#">文字啊</a>
-							</dd>
-						</dl>
-						<dl class="shopList_item">
-							<dt>电脑装机</dt>
-							<dd>
-								<a href="#">文字啊</a><a href="#">文字字啊</a><a href="#">文字字字啊</a><a href="#">文字啊</a><a href="#">文字</a><a href="#">文字啊</a><a href="#">文字啊</a><a href="#">文字字啊</a><a href="#">文字字字啊</a><a href="#">文字啊</a><a href="#">文字</a><a href="#">文字啊</a><a href="#">文字啊</a>
-							</dd>
-						</dl>
-						<div class="shopList_links">
-							<a href="#">文字测试内容等等<span></span></a><a href="#">文字容等等<span></span></a>
-						</div>
-					</div>
+                    <dl class="shopClass_item">
+                        <dt><a href="#" class="b">计算机</a></dt>
+                        <dd><a href="#">C语言</a> <a href="#">C#</a> <a href="#">JAVA</a> <a href="#">PHP</a> <a href="#">前端</a></dd>
+                    </dl>
 				</div>
 			</div>
 			<ul class="nav fl">
@@ -113,12 +80,15 @@
 			<li><a href="#"><img src="images/banner/banner_02.jpg" alt="banner"></a></li>
 		</ul>
 		<div class="imgNum">
-			<a href="#" class="active"></a><a href="#"></a><a href="#"></a><a href="#"></a>
+			<a href="#" class="active"></a>
+            <a href="#"></a>
+            <a href="#"></a>
+            <a href="#"></a>
 		</div>
 	</div>
 </div>
 <div class="shopTit comWidth">
-	<span class="icon"></span><h3>家用电脑</h3>
+	<span class="icon"></span><h3>热销课</h3>
 	<a href="#" class="more">更多&gt;&gt;</a>
 </div>
 <div class="shopList comWidth clearfix">
@@ -142,56 +112,8 @@
 				<h3>HTC新渴望8系列</h3>
 				<p>1899元</p>
 			</div>
-			<div class="shop_item">
-				<div class="shop_img">
-					<a href="#"><img src="images/shopImg.jpg" alt=""></a>
-				</div>
-				<h3>HTC新渴望8系列</h3>
-				<p>1899元</p>
-			</div>
-			<div class="shop_item">
-				<div class="shop_img">
-					<a href="#"><img src="images/shopImg.jpg" alt=""></a>
-				</div>
-				<h3>HTC新渴望8系列</h3>
-				<p>1899元</p>
-			</div>
-			<div class="shop_item">
-				<div class="shop_img">
-					<a href="#"><img src="images/shopImg.jpg" alt=""></a>
-				</div>
-				<h3>HTC新渴望8系列</h3>
-				<p>1899元</p>
-			</div>
 		</div>
 		<div class="shopList_sm clearfix">
-			<div class="shopItem_sm">
-				<div class="shopItem_smImg">
-					<a href="#"><img src="images/shopImg.jpg" alt=""></a>
-				</div>
-				<div class="shopItem_text">
-					<p>NFC技术一碰轻松配对！接触屏幕</p>
-					<h3>￥149.00	</h3>
-				</div>
-			</div>
-			<div class="shopItem_sm">
-				<div class="shopItem_smImg">
-					<a href="#"><img src="images/shopImg.jpg" alt=""></a>
-				</div>
-				<div class="shopItem_text">
-					<p>NFC技术一碰轻松配对！接触屏幕</p>
-					<h3>￥149.00	</h3>
-				</div>
-			</div>
-			<div class="shopItem_sm">
-				<div class="shopItem_smImg">
-					<a href="#"><img src="images/shopImg.jpg" alt=""></a>
-				</div>
-				<div class="shopItem_text">
-					<p>NFC技术一碰轻松配对！接触屏幕</p>
-					<h3>￥149.00	</h3>
-				</div>
-			</div>
 			<div class="shopItem_sm">
 				<div class="shopItem_smImg">
 					<a href="#"><img src="images/shopImg.jpg" alt=""></a>
@@ -205,7 +127,7 @@
 	</div>
 </div>
 <div class="shopTit comWidth">
-	<span class="icon"></span><h3>家用电脑</h3>
+	<span class="icon"></span><h3>精选课</h3>
 	<a href="#" class="more">更多&gt;&gt;</a>
 </div>
 <div class="shopList comWidth clearfix">
@@ -229,56 +151,8 @@
 				<h3>HTC新渴望8系列</h3>
 				<p>1899元</p>
 			</div>
-			<div class="shop_item">
-				<div class="shop_img">
-					<a href="#"><img src="images/shopImg.jpg" alt=""></a>
-				</div>
-				<h3>HTC新渴望8系列</h3>
-				<p>1899元</p>
-			</div>
-			<div class="shop_item">
-				<div class="shop_img">
-					<a href="#"><img src="images/shopImg.jpg" alt=""></a>
-				</div>
-				<h3>HTC新渴望8系列</h3>
-				<p>1899元</p>
-			</div>
-			<div class="shop_item">
-				<div class="shop_img">
-					<a href="#"><img src="images/shopImg.jpg" alt=""></a>
-				</div>
-				<h3>HTC新渴望8系列</h3>
-				<p>1899元</p>
-			</div>
 		</div>
 		<div class="shopList_sm clearfix">
-			<div class="shopItem_sm">
-				<div class="shopItem_smImg">
-					<a href="#"><img src="images/shopImg.jpg" alt=""></a>
-				</div>
-				<div class="shopItem_text">
-					<p>NFC技术一碰轻松配对！接触屏幕</p>
-					<h3>￥149.00	</h3>
-				</div>
-			</div>
-			<div class="shopItem_sm">
-				<div class="shopItem_smImg">
-					<a href="#"><img src="images/shopImg.jpg" alt=""></a>
-				</div>
-				<div class="shopItem_text">
-					<p>NFC技术一碰轻松配对！接触屏幕</p>
-					<h3>￥149.00	</h3>
-				</div>
-			</div>
-			<div class="shopItem_sm">
-				<div class="shopItem_smImg">
-					<a href="#"><img src="images/shopImg.jpg" alt=""></a>
-				</div>
-				<div class="shopItem_text">
-					<p>NFC技术一碰轻松配对！接触屏幕</p>
-					<h3>￥149.00	</h3>
-				</div>
-			</div>
 			<div class="shopItem_sm">
 				<div class="shopItem_smImg">
 					<a href="#"><img src="images/shopImg.jpg" alt=""></a>
@@ -293,9 +167,7 @@
 </div>
 <div class="hr_25"></div>
 <div class="footer">
-	<p><a href="#">PHP中文网简介</a><i>|</i><a href="#">PHP中文网公告</a><i>|</i> <a href="#">招纳贤士</a><i>|</i><a href="#">联系我们</a><i>|</i>客服热线：452-4244-1454</p>
-	<p>Copyright &copy; 2006 - 2014 版权所有&nbsp;&nbsp;&nbsp;京ICP备05082163号&nbsp;&nbsp;&nbsp;京ICP证B1563-8895号&nbsp;&nbsp;&nbsp;某市公安局XX分局备案编号：123456789123</p>
-	<p class="web"><a href="#"><img src="images/webLogo.jpg" alt="logo"></a><a href="#"><img src="images/webLogo.jpg" alt="logo"></a><a href="#"><img src="images/webLogo.jpg" alt="logo"></a><a href="#"><img src="images/webLogo.jpg" alt="logo"></a></p>
+	<p>Copyright &copy; 2020.Company name All rights reserved.<a target="_blank" href="http://sc.chinaz.com/moban/">蚌埠学院</a></p>
 </div>
 </body>
 </html>
