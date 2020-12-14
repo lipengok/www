@@ -64,7 +64,7 @@ eof;
                         <a href="about.php">关于我们</a>
                         <a href="public/vedio">线上直播客</a>
                         <a href="public/music">点播空间</a>
-                        <a href="files.php">我的课程</a>
+                        <a href="myfile">我的课程</a>
                         <a href="myhome/index.php">我的博客</a>
                         <a href="contact.html">联系我们</a>
                         <a href="index.html" class="active">退出登录</a>

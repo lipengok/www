@@ -30,7 +30,7 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/admin/images" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/myfile" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="two.files.diff.last.used.folder" value="$PROJECT_DIR$/admin" />
@@ -38,11 +38,11 @@
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\netschool\myfile" />
       <recent name="F:\netschool\admin\images" />
       <recent name="F:\netschool\myclass" />
       <recent name="F:\netschool\public\music" />
       <recent name="F:\netschool\public\vedio" />
-      <recent name="F:\netschool\php\controller" />
     </key>
     <key name="MoveFile.RECENT_KEYS">
       <recent name="F:\netschool\home" />
@@ -70,7 +70,7 @@
       <workItem from="1607480059401" duration="2779000" />
       <workItem from="1607675360921" duration="27352000" />
       <workItem from="1607767795601" duration="77000" />
-      <workItem from="1607929788622" duration="1359000" />
+      <workItem from="1607929788622" duration="4467000" />
     </task>
     <servers />
   </component>
