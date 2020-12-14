@@ -37,6 +37,9 @@ $_SESSION['code']=str_replace(' ','',$code);
             background: lightseagreen;
             color: blue;
         }
+        .img_logo{
+            border-radius: 50%;
+        }
     </style>
 </head>
 <body>
@@ -44,7 +47,7 @@ $_SESSION['code']=str_replace(' ','',$code);
     <div class="content clearfix">
         <div class="content-left">
             <div class="logo">
-                <img src="images/logo.png" alt=""/>
+                <img src="images/logo-bbu.jpg" class="img_logo" alt=""/>
                 <p>蚌埠学院学生信息管理系统</p>
             </div>
         </div>
