@@ -1,4 +1,6 @@
 <?php
+include "php/controller/gallery/FindGallery.php";
+use Php\Controller\Gallery\FindGallery;
 if ($_COOKIE['username']==null||$_COOKIE['psw']==null){
     echo <<<eof
 <script>
@@ -7,6 +9,8 @@ window.location.href="index.html";
 </script>
 eof;
 }
+$gallery=new FindGallery();
+$data=$gallery->run();
 ?>
 <!DOCTYPE html>
 <html>
@@ -105,108 +109,21 @@ eof;
     <div class="gallery-w3ls">
              <div class="container">
                  <h2 class="agile">校园CENTER</h2>
-
                  <div class="w3layouts_gallery_grids">
                      <ul class="w3l_gallery_grid" id="lightGallery">
-                         <li data-title="Elucidation" data-desc="Lorem Ipsum is simply dummy text of the printing." data-src="images/4.jpg" data-responsive-src="images/4.jpg">
-                             <div class="w3layouts_gallery_grid1 box">
-                                 <a href="#">
-                                     <img src="images/4.jpg" alt=" " class="img-responsive" />
-                                     <div class="overbox">
-                                         <h4 class="title overtext"> 校园足球 </h4>
-                                         <p class="tagline overtext"> Fusce venenatis sem nec justo dapibus finibus. </p>
-                                     </div>
-                                 </a>
-                             </div>
-                         </li>
-                         <li data-title="Elucidation" data-desc="Lorem Ipsum is simply dummy text of the printing." data-src="images/5.jpg" data-responsive-src="images/5.jpg">
-                             <div class="w3layouts_gallery_grid1 box">
-                                 <a href="#">
-                                     <img src="images/5.jpg" alt=" " class="img-responsive" />
-                                     <div class="overbox">
-                                         <h4 class="title overtext"> 校园篮球 </h4>
-                                         <p class="tagline overtext"> Fusce venenatis sem nec justo dapibus finibus. </p>
-                                     </div>
-                                 </a>
-                             </div>
-                         </li>
-                         <li data-title="Elucidation" data-desc="Lorem Ipsum is simply dummy text of the printing." data-src="images/6.jpg" data-responsive-src="images/6.jpg">
-                             <div class="w3layouts_gallery_grid1 box">
-                                 <a href="#">
-                                     <img src="images/6.jpg" alt=" " class="img-responsive" />
-                                     <div class="overbox">
-                                         <h4 class="title overtext"> 校园羽毛球 </h4>
-                                         <p class="tagline overtext"> Fusce venenatis sem nec justo dapibus finibus. </p>
-                                     </div>
-                                 </a>
-                             </div>
-                         </li>
-                         <li data-title="Elucidation" data-desc="Lorem Ipsum is simply dummy text of the printing." data-src="images/7.jpg" data-responsive-src="images/7.jpg">
-                             <div class="w3layouts_gallery_grid1 box">
-                                 <a href="#">
-                                     <img src="images/7.jpg" alt=" " class="img-responsive" />
-                                     <div class="overbox">
-                                         <h4 class="title overtext"> 校园拔河 </h4>
-                                         <p class="tagline overtext"> Fusce venenatis sem nec justo dapibus finibus. </p>
-                                     </div>
-                                 </a>
-                             </div>
-                         </li>
-                         <li data-title="Elucidation" data-desc="Lorem Ipsum is simply dummy text of the printing." data-src="images/8.jpg" data-responsive-src="images/8.jpg">
-                             <div class="w3layouts_gallery_grid1 box">
-                                 <a href="#">
-                                     <img src="images/8.jpg" alt=" " class="img-responsive" />
-                                     <div class="overbox">
-                                         <h4 class="title overtext"> 校园汉服 </h4>
-                                         <p class="tagline overtext"> Fusce venenatis sem nec justo dapibus finibus. </p>
-                                     </div>
-                                 </a>
-                             </div>
-                         </li>
-                         <li data-title="Elucidation" data-desc="Lorem Ipsum is simply dummy text of the printing." data-src="images/9.jpg" data-responsive-src="images/9.jpg">
-                             <div class="w3layouts_gallery_grid1 box">
-                                 <a href="#">
-                                     <img src="images/9.jpg" alt=" " class="img-responsive" />
-                                     <div class="overbox">
-                                         <h4 class="title overtext"> 校园K歌 </h4>
-                                         <p class="tagline overtext"> Fusce venenatis sem nec justo dapibus finibus. </p>
-                                     </div>
-                                 </a>
-                             </div>
-                         </li>
-                         <li data-title="Elucidation" data-desc="Lorem Ipsum is simply dummy text of the printing." data-src="images/10.jpg" data-responsive-src="images/10.jpg">
-                             <div class="w3layouts_gallery_grid1 box">
-                                 <a href="#">
-                                     <img src="images/10.jpg" alt=" " class="img-responsive" />
-                                     <div class="overbox">
-                                         <h4 class="title overtext"> 校园志愿者 </h4>
-                                         <p class="tagline overtext"> Fusce venenatis sem nec justo dapibus finibus. </p>
-                                     </div>
-                                 </a>
-                             </div>
-                         </li>
-                         <li data-title="Elucidation" data-desc="Lorem Ipsum is simply dummy text of the printing." data-src="images/11.jpg" data-responsive-src="images/11.jpg">
-                             <div class="w3layouts_gallery_grid1 box">
-                                 <a href="#">
-                                     <img src="images/11.jpg" alt=" " class="img-responsive" />
-                                     <div class="overbox">
-                                         <h4 class="title overtext"> 校园科技</h4>
-                                         <p class="tagline overtext"> Fusce venenatis sem nec justo dapibus finibus. </p>
-                                     </div>
-                                 </a>
-                             </div>
-                         </li>
-                         <li data-title="Elucidation" data-desc="Lorem Ipsum is simply dummy text of the printing." data-src="images/12.jpg" data-responsive-src="images/12.jpg">
-                             <div class="w3layouts_gallery_grid1 box">
-                                 <a href="#">
-                                     <img src="images/12.jpg" alt=" " class="img-responsive" />
-                                     <div class="overbox">
-                                         <h4 class="title overtext">校园摄影 </h4>
-                                         <p class="tagline overtext"> Fusce venenatis sem nec justo dapibus finibus. </p>
-                                     </div>
-                                 </a>
-                             </div>
-                         </li>
+                         <? foreach ($data as $gallery):?>
+                             <li data-title="<?=$gallery['createTime']?>" data-desc="<?=$gallery['generall']?>" data-src="<?=$gallery['img']?>" data-responsive-src="<?=$gallery['img']?>">
+                                 <div class="box">
+                                     <a href="public/user/gallery" target="_blank">
+                                         <img src="<?=$gallery['img']?>" alt=" " class="img-responsive" />
+                                         <div class="overbox">
+                                             <h4 class="title overtext"> <?=$gallery['title']?> </h4>
+                                             <p class="tagline overtext"> <?=$gallery['generall']?> </p>
+                                         </div>
+                                     </a>
+                                 </div>
+                             </li>
+                         <? endforeach;?>
                      </ul>
                  </div>
              </div>
@@ -214,16 +131,16 @@ eof;
     <!-- js -->
     <script src="js/lightGallery.js"></script>
     <script>
-             $(document).ready(function() {
-                 $("#lightGallery").lightGallery({
-                     mode:"fade",
-                     speed:800,
-                     caption:true,
-                     desc:true,
-                     mobileSrc:true
-                 });
-             });
-         </script>
+        $(document).ready(function() {
+            $("#lightGallery").lightGallery({
+                mode:"fade",
+                speed:800,
+                caption:true,
+                desc:true,
+                mobileSrc:true
+            });
+        });
+    </script>
     <!-- 关于我们-->
     <div class="agileinfo_footer_bottom">
          <div class="container">
