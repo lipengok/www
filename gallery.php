@@ -45,6 +45,9 @@ $data=$gallery->run();
         body{
             background: lightgray;
         }
+        h6{
+            text-align: right;
+        }
 </style>
 </head>
 <body class="cbp-spmenu-push">
@@ -54,13 +57,7 @@ $data=$gallery->run();
             <div class="wthree-header">
                 <div class="w3l-logo">
                     <h1><a href="index.html">Elucidation</a></h1>
-                    <p class="p_info">
-                        欢迎
-                            <?php
-                            echo $_COOKIE['username'];
-                            ?>
-                        加入
-                    </p>
+                    <p class="p_info">欢迎<?php echo $_COOKIE['username']; ?>加入</p>
                 </div>
                 <div class="agileinfo-tleft">
                     <nav class="cbp-spmenu cbp-spmenu-vertical cbp-spmenu-right" id="cbp-spmenu-s2">
@@ -110,20 +107,56 @@ $data=$gallery->run();
              <div class="container">
                  <h2 class="agile">校园CENTER</h2>
                  <div class="w3layouts_gallery_grids">
+                     <h6>
+                         <a href="/public/user/gallery">了解更多详情></a>
+                     </h6>
+                     <hr>
                      <ul class="w3l_gallery_grid" id="lightGallery">
-                         <? foreach ($data as $gallery):?>
-                             <li data-title="<?=$gallery['createTime']?>" data-desc="<?=$gallery['generall']?>" data-src="<?=$gallery['img']?>" data-responsive-src="<?=$gallery['img']?>">
-                                 <div class="box">
-                                     <a href="public/user/gallery" target="_blank">
-                                         <img src="<?=$gallery['img']?>" alt=" " class="img-responsive" />
-                                         <div class="overbox">
-                                             <h4 class="title overtext"> <?=$gallery['title']?> </h4>
-                                             <p class="tagline overtext"> <?=$gallery['generall']?> </p>
-                                         </div>
-                                     </a>
+                         <?php
+                            if (count($data)<=15){
+                                for ($i=0;$i<count($data);$i++){
+                                    $time=$data[$i]['createTime'];
+                                    $title=$data[$i]['title'];
+                                    $generall=$data[$i]['generall'];
+                                    $img=$data[$i]['img'];
+
+                                    echo <<<eof
+                        <li data-title="$time" data-desc="$generall" data-src="$img" data-responsive-src="$img">
+                         <div class="box">
+                             <a href="public/user/gallery" target="_blank">
+                                 <img src="$img" alt=" " class="img-responsive" />
+                                 <div class="overbox">
+                                     <h4 class="title overtext"> $title </h4>
+                                     <p class="tagline overtext"> $generall </p>
                                  </div>
-                             </li>
-                         <? endforeach;?>
+                             </a>
+                         </div>
+                         </li>
+eof;
+                                }
+                            }else{
+                                for ($i=0;$i<15;$i++){
+                                    $time=$data[$i]['createTime'];
+                                    $title=$data[$i]['title'];
+                                    $generall=$data[$i]['generall'];
+                                    $img=$data[$i]['img'];
+
+                                    echo <<<eof
+                        <li data-title="$time" data-desc="$generall" data-src="$img" data-responsive-src="$img">
+                         <div class="box">
+                             <a href="public/user/gallery" target="_blank">
+                                 <img src="$img" alt=" " class="img-responsive" />
+                                 <div class="overbox">
+                                     <h4 class="title overtext"> $title </h4>
+                                     <p class="tagline overtext"> $generall </p>
+                                 </div>
+                             </a>
+                         </div>
+                         </li>
+eof;
+                                }
+                            }
+                         ?>
                      </ul>
                  </div>
              </div>

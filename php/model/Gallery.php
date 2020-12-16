@@ -30,16 +30,30 @@ class Gallery{
     /*
      * 页面管理员发布最新校园广场的信息
      * */
-    public function insertOne($info,$classId){
+    public function insertOne($title,$classId,$img,$info,$generall,$createTime){
         $sql="
-        insert into user_gallery_info(info,class_id) 
-        values ('$info','$classId');
+        insert into user_gallery_info(title,class_id,mg,info,generall,create_time) 
+        values ('$title',$classId,'$img','$info','$generall','$createTime');
         ";
         $res=$this->con->query($sql);
         if ($res){
             return true;
         }else{
             return false;
+        }
+    }
+    /*
+     * 根据id获取确定的一条数据
+     * */
+    public function findOne($id){
+        $slq="
+        select * from user_gallery_info where id=$id;
+        ";
+        $res=$this->con->query($slq);
+        if ($res->num_rows>0){
+            return $res;
+        }else{
+            return null;
         }
     }
 }
