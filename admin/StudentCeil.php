@@ -27,7 +27,7 @@
         }
         .bx .container .right{
             overflow: hidden;
-            width: 124px;
+            width: 300px;
             padding-top: 19px;
             float: right;
         }
@@ -35,17 +35,13 @@
             font-size: 16px;
             color: #fff;
         }
-        .bx .container .right .l{
-            float: left;
-        }
-        .bx .container .right .r{
-            float: right;
-        }
         a{
             color: whitesmoke;
             font-weight: bolder;
             text-decoration: none;
+            margin-left: 20px;
         }
+
     </style>
 </head>
 <body>
@@ -53,8 +49,9 @@
     <div class="container">
         <h2 class="left">学生信息管理中心</h2>
         <div class="right">
-            <a class="l" href="php/controller/destroylogin.php" target="_blank">注销</a>
-            <a class="r" href="index.php" target="_blank">退出登录</a>
+            <a href="php/controller/destroylogin.php" target="_blank">注销</a>
+            <a href="index.php" target="_blank">退出登录</a>
+            <a href="netmanage" target="_blank">网站管理系统</a>
         </div>
     </div>
 </div>

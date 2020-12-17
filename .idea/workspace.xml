@@ -30,23 +30,23 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/public/user/gallery" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/admin/netmanage" />
     <property name="list.type.of.created.stylesheet" value="CSS" />
     <property name="nodejs_package_manager_path" value="npm" />
     <property name="two.files.diff.last.used.folder" value="$PROJECT_DIR$/admin" />
     <property name="vue.rearranger.settings.migration" value="true" />
   </component>
   <component name="RecentsManager">
-    <key name="MoveFile.RECENT_KEYS">
-      <recent name="F:\netschool\home" />
-      <recent name="E:\PhpStydy\koschoolhtml\admin" />
-    </key>
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="F:\netschool\admin\netmanage" />
+      <recent name="F:\netschool\admin\php\model" />
       <recent name="F:\netschool\public\user\gallery" />
       <recent name="F:\netschool\php\controller\gallery" />
       <recent name="F:\netschool\myfile" />
-      <recent name="F:\netschool\admin\images" />
-      <recent name="F:\netschool\myclass" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="F:\netschool\home" />
+      <recent name="E:\PhpStydy\koschoolhtml\admin" />
     </key>
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
@@ -71,7 +71,8 @@
       <workItem from="1607675360921" duration="27352000" />
       <workItem from="1607767795601" duration="77000" />
       <workItem from="1607929788622" duration="17777000" />
-      <workItem from="1608078856162" duration="12408000" />
+      <workItem from="1608078856162" duration="14769000" />
+      <workItem from="1608175786233" duration="1163000" />
     </task>
     <servers />
   </component>
